@@ -8,3 +8,8 @@ a           = [1,2,3,4,5,6,7]
 b           = [8,9]
 c           = a + b
 print(b+a,sum(c))
+# a           = 'Hola como te va'
+if a>b:
+   print('a es mayor que b')
+   
+

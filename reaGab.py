@@ -3,7 +3,7 @@ Library reaGab.py May-2019
 Set of functions for easy print
 
 """
-def titu(text,aste):
+def title(text,aste):
    width       = len(text)+4
    if len(aste)==0:
       aste        = '*'

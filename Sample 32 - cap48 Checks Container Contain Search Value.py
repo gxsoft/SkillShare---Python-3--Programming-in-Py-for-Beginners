@@ -12,7 +12,7 @@ import reaGab as g
 
 """
 # Begin gab routines // IMPORT reaGab.py
-def titu(text,aste):
+def title(text,aste):
    width       = len(text)+4
    if len(aste)==0:
       aste        = '*'
@@ -58,23 +58,23 @@ def is_value_in2(value):
 
 times       = 500_000   
 rg.line('-')
-rg.titu(program,'')
-rg.titu('Performace 2','')
+rg.title(program,'')
+rg.title('Performace 2','')
 print('   1: ',performance(is_value_in2, 1,times))
 print(' 500: ',performance(is_value_in2, 500,times))
 print('1000: ',performance(is_value_in2, 1000,times))
 print('1500: ',performance(is_value_in2, 1500,times))
-rg.titu('Performace 1','')
+rg.title('Performace 1','')
 print('   1: ',performance(is_value_in, 1,times))
 print(' 500: ',performance(is_value_in, 500,times))
 print('1000: ',performance(is_value_in, 1000,times))
 print('1500: ',performance(is_value_in, 1500,times))
-rg.titu('Performace 2','')
+rg.title('Performace 2','')
 print('   1: ',performance(is_value_in2, 1,times))
 print(' 500: ',performance(is_value_in2, 500,times))
 print('1000: ',performance(is_value_in2, 1000,times))
 print('1500: ',performance(is_value_in2, 1500,times))
-rg.titu('Performace inSet ','')
+rg.title('Performace inSet ','')
 print('   1: ',performance(is_value_inSet, 1,times))
 print(' 500: ',performance(is_value_inSet, 500,times))
 print('1000: ',performance(is_value_inSet, 1000,times))
@@ -83,7 +83,7 @@ print('1500: ',performance(is_value_inSet, 1500,times))
 
 
 rg.line('-')
-g.titu("   End   ",'')
+g.title("   End   ",'')
 
 
 
